@@ -1,0 +1,28 @@
+name: machine_learning
+channels:
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.7.6
+  - jupyter
+  - numpy
+  - matplotlib
+  - ipympl
+  - scipy
+  - scikit-learn
+  - tensorflow
+  - keras
+  - sympy
+  - pandas
+  - networkx
+  - pydot
+  - xgboost
+  - tabulate
+  - pickle5
+  - bokeh
+  - plotly
+  - imageio
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly

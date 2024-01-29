@@ -1,4 +1,4 @@
-conda create -n machine_learning_4 python=3.7.6
+conda create -n machine_learning_5 python=3.7.6
 conda install jupyter
 conda install numpy 
 conda install matplotlib
@@ -11,9 +11,6 @@ C1_W2
 
 conda install tensorflow keras
 C2_W1
-
-conda install pytorch torchvision torchaudio cpuonly -c pytorch
-C2_W2 pytorch
 
 conda install sympy
 C2_W2
@@ -36,3 +33,10 @@ pip install PyVirtualDisplay==3.0
 pip install box2d-py==2.3.8
 pip install pygame==2.1.2
 C3_W3
+
+Optional
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+C2_W2 pytorch
+
+conda env create -f environment.yml
+conda activate machine_learning
