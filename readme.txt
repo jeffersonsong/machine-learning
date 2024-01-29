@@ -8,7 +8,6 @@ C1_W1
 conda install scipy
 conda install scikit-learn
 C1_W2
-C1_W3
 
 conda install tensorflow keras
 C2_W1
@@ -26,6 +25,14 @@ conda install xgboost
 C2_W4
 
 conda install tabulate
-#conda install pickle5
+conda install pickle5
 conda install bokeh
 conda install plotly
+C3_W2
+
+pip install gym=0.24.0
+conda install imageio
+pip install PyVirtualDisplay==3.0
+pip install box2d-py==2.3.8
+pip install pygame==2.1.2
+C3_W3
